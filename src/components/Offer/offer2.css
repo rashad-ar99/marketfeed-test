@@ -1,0 +1,122 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold;
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.offer__Section{
+    /* border: 2px solid red; */
+    align-content: center;
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    /* height: 110%; */
+    margin-top: 8%;
+}
+
+.offer__SectionInternalBG{
+    /* border: 2px solid greenyellow; */
+    width: 80%;
+    height: 70vh;
+    max-height: 410px;
+    border-radius: 50px;
+    background: linear-gradient(121.71deg, #F8FFDB -3.31%, #FFFFF3 92.08%);
+}
+
+.offer__SectionInternal{  
+    /* border: 2px solid blue; */
+    height: 91%;
+    /* overflow: hidden; */
+    border-radius: 40px;
+    background-image: url(../images/svg/join_discord_bg_pattern.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+}
+
+.cycling{    
+    /* border: 2px solid red; */
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin-right: -5%;
+    width: 40%;
+    margin-top: -15%;
+}
+
+.offer__Heading{
+    /* border: 2px solid red; */
+    font-family: gilroy-bold;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #C3B85D;
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.offer__Bold{
+    /* border: 2px solid red; */
+    font-family: gilroy-extrabold;
+    font-size: 5em;
+    line-height: 120%;
+    letter-spacing: -1px;
+    background: linear-gradient(112.22deg, #BC00CC 18.15%, #E4006E 74.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 60%;
+    margin-left: 5%;
+
+}
+
+.offer__BoldMob{display: none;}
+
+.offer__Text{
+    /* border: 2px solid red; */
+    font-family: gilroy-medium;
+    color: #484848;
+    font-size: 2em;
+    line-height: 130%;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.offer__TextMob{display: none;}
+
+.takeMeThere__Button{
+    font-family: gilroy-bold;
+    background: linear-gradient(137.56deg, #6A79DF 0.23%, #886ADF 110.36%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    color: white;
+    width: 15%;
+    height: 13%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.takeMeThere__Button:hover{
+    background: linear-gradient(137.56deg, #475295 0.23%, #886ADF 110.36%);
+}
+
+/* .bgMob{display: none;} */
+
+.takeMeThere__ButtonMob{display: none;}

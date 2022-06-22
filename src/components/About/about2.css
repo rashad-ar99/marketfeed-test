@@ -1,0 +1,79 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold;
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+
+.about__Container{
+    /* border: 2px solid green;    */
+    font-size: 62.5%;
+    width: 70%;
+    display: inline-block;
+    padding-top: 5%;
+    margin-left: 10%;
+}
+
+.about__TextBold{
+    /* border: 2px solid red;    */
+    font-size: 5em;
+    float: left;
+    width: 25%;
+    max-width: 350px;
+    font-family: gilroy-extrabold;
+}
+
+.about__TextBold p{
+    color: #484848;
+}
+
+.about__TextBold span{
+    color: #637BFF;
+}
+
+.about__InfoText{
+    font-size: 2em;
+    font-family: gilroy-medium;
+    color: #484848;
+}
+
+.about__InfoTextMob{display: none;}
+
+.about__Data{
+    /* border: 2px solid red; */
+    padding: 0;
+    display: flex;
+    width: 40%;
+    margin-left: 25.5%;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.about__DataMob{display: none;}
+
+.followers__Light, .students__Light, .traders__Light{
+    color: #484848;
+    text-transform: uppercase;
+    font-family: gilroy-medium;
+    font-size: 1.5em;
+}
+
+.followers__Bold, .students__Bold, .traders__Bold{
+    color: #8149A8;
+    font-size: 2em;
+    font-family: gilroy-extrabold;
+}

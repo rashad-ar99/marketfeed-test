@@ -1,0 +1,82 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold;
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.about__Container{
+    margin-top: 300px;
+    /* border: 2px solid green; */
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.about__TextBold{
+    font-family: gilroy-extrabold;
+    /* border: 1px solid black; */
+    width: 230px;
+    /* height: 160px; */
+    font-size: 32px;    
+}
+
+.about__TextBold span{
+    color: #637BFF;
+}
+
+
+.about__InfoText{
+    font-family: gilroy-medium;
+    color: #484848;
+    width: 65%;
+    margin-top: -175px;
+    margin-right: 12%;
+    /* border: 1px solid black; */
+    float: right;
+}
+
+.about__Data{
+    margin-top: 23px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    float: left;
+    width: 100%;
+}
+
+.about__Data span{
+    /* border: 2px solid; */
+    margin-right: 10%;
+}
+
+.followers__Bold, .students__Bold, .traders__Bold{
+    /* border: 2px solid; */
+    font-size: 24px;
+    font-family: gilroy-extrabold;
+    color: #8149A8;
+}
+
+.followers__Light, .students__Light, .traders__Light{
+    text-transform: uppercase;
+    font-family: gilroy-medium;
+    font-size: 10px;    
+}
+
+.programs__Container{
+    border: 2px solid green;
+    display: flex;
+}

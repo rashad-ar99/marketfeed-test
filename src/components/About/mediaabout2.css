@@ -1,0 +1,62 @@
+@media screen and (max-width: 970px) {
+
+    .about__Container{
+        /* border: 2px solid green; */
+        padding-bottom: 15%;
+        width: 80%;
+        padding-top: 20%;
+        /* background: linear-gradient(-10deg, #FFC0CB 50%, #00FFFF 50%); */
+    }
+
+    .about__TextBold{
+        /* border: 2px solid red;       */
+        width: 50%;
+        font-size: 3.2em;
+        text-align: center;
+        line-height: 120%;
+        margin-left: 25%;
+        margin-bottom: 6%;
+    }
+
+    .about__InfoText{display: none;}
+
+    .about__InfoTextMob{
+        display: inline-block;
+        width: 80%;
+        margin-left: 10%;
+        /* border: 2px solid purple;    */
+        font-family: gilroy-medium;  
+        font-size: 1.4em;
+        line-height: 150%;
+        text-align: center; 
+    }
+
+    .about__InfoTextMob a{
+        color: #637BFF;
+        text-decoration: none;
+    }
+
+    .about__Data{display: none;}
+
+    .about__DataMob{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+        /* border: 2px solid yellow; */
+        margin-left: 10%;
+        width: 80%;
+        /* align-content: flex-start; */
+    }
+
+    .followers__Light, .students__Light, .traders__Light{
+        /* border: 2px solid red; */
+        width:  20%;
+        margin-top: 10%;
+    }
+    .students__Light{
+        margin-left: 50%;
+        /* margin-top: -19%; */
+        /* top: 20px; */
+        position: relative;
+    }
+}

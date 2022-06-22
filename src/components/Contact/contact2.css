@@ -1,0 +1,78 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold; 
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.contact__Container{
+    font-size: 62.5%;
+    background: url(../images/contact_bg.png) no-repeat, url(../images/customer_service_img.png) no-repeat right bottom;
+    background-size: cover, 35%;
+    background-color: #f6f8ff;
+    border: 2px solid transparent;
+    /* background-size: cover; */
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.contact__Text{
+    font-family: gilroy-extrabold;
+    font-size: 5em;
+    color: #4b4b4b;
+    /* border: 2px solid black; */
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.contact__Box{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 40px;
+    width: 60%;
+    justify-content: left;
+
+}
+
+.contact__Method{
+
+    font-family: 'Gilroy-Bold';
+    font-size: 0.4em;
+    width: 50%;
+    padding-left: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    font-feature-settings: 'liga' off;
+    color: #767676;
+    opacity: 0.7;
+}
+
+.first{
+
+    border-right: 1px solid #000000;;
+}
+
+.contact__Method p{
+    font-family: 'Gilroy-ExtraBold';
+        font-size: 1.5em;
+        line-height: 167%;
+        letter-spacing: -1px;
+        color: #000000;
+}

@@ -1,0 +1,351 @@
+
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+  }
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+    font-family: gilroy-light;
+    src: url(Gilroy-Light.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold;
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.home__Page {
+
+    /* border: 2px solid; */
+    background: linear-gradient(151.68deg, #E3F7FF -2.69%, #DAE3FD 98.31%);
+    width: 100%;
+    height: 810px;
+
+}
+
+.breakout__Logo {
+    padding-top: 35px;
+    padding-left: 100px;
+    height: 50px;
+    float: left;
+}
+
+.whatsapp__Button {
+
+    /* ------------------------ */
+    position: relative;
+    z-index: 2;
+    /* ------------------------ */
+
+    width: 172px;
+    height: 54px;
+    background-color: #14CC60;
+    border: none;
+    border: 1px solid rgba(18, 18, 18, 0.1);
+    border-radius: 16px;    
+    color: white;
+    float: right;
+    margin-right: -850px;
+    margin-top: 35px;
+}
+
+.whatsapp__Button:hover {
+    background-color: #129a4a;
+}
+
+.whatsappButton__Text{
+    font-size: 18px;
+    font-family: gilroy-bold;
+    /* margin-left: 7%; */
+}
+
+
+.homePage__Text{
+    font-family: gilroy-bold;
+    padding-top: 210px;
+    padding-left: 150px;
+    width: 295px;
+    height: 180px;
+
+    /* ------------------------ */
+    position: relative;
+    z-index: 1;
+    /* ------------------------ */
+}
+
+.bold__Text{
+    font-size: 45px;
+    line-height: 60px;
+    
+}
+
+.first__Line{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #779FBD;
+}
+
+.second__Line{
+    color: #637BFF;
+}
+
+.paragraph__Text{
+    font-family: gilroy-medium;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.joinNow__Button {
+
+    width: 160px;
+    height: 54px;
+    background-color: #14CC60;
+    border: none;
+    border: 1px solid rgba(18, 18, 18, 0.1);
+    border-radius: 16px;    
+    color: white;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.joinNow__Button:hover {
+    background-color: #129a4a;
+}
+
+.JoinButton__Text{
+    font-size: 18px;
+    font-family: gilroy-bold;
+    /* margin-left: 7%; */
+}
+
+.last__Line p {
+    margin-left: 150px;
+    margin-top: 220px;
+    font-family: gilroy-bold;
+    color: #767676;
+}
+
+.people__Image{
+    
+    margin-top: 114px;
+    float: right;
+    /* border: 2px solid; */
+
+    /* ------------------------ */
+    position: relative;
+    z-index: 1;
+    /* ------------------------ */
+}
+
+.people__ImageMob{
+    display: none;
+}
+
+.info__Box{
+    position: absolute;
+
+    margin-left: 14%;
+    margin-top: -100px;
+
+    background: linear-gradient(144.46deg, #E0FFED 1.35%, #E0F9FF 115.13%);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 40px;
+    /* width: 1140px; */
+    height: 325px;
+    z-index: 1;
+    
+    /* ------------------------ */
+    width: 75%;
+    min-width: 750px;
+    /* width: 1140px; */
+    /* ------------------------ */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.virtual__Campus, .practical__Learning, .for__Traders{
+
+    margin-top: 50px;
+    /* border: 2px solid; */
+    margin-left: 40px;
+    margin-right: 40px;
+} 
+
+.vc__img, .pl__img, .ft__img{
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.vc__heading, .pl__heading, .ft__heading{
+    float: left;
+    font-family: gilroy-bold;
+    font-size: 23px;
+    color: #641B98;
+}
+
+.vc__text, .pl__text, .ft__text{
+    /* border: 1px solid; */
+    /* width: 250px; */
+
+    /* ------------------------ */
+    width: 75%;
+    /* ------------------------ */
+
+    float: right;
+    font-family: gilroy-light;
+    font-size: 17px;
+    line-height: 21px;
+    /* font-weight: 300; */
+}
+
+/* .list__Info {
+    list-style-type: none;
+    font-family: gilroy-bold;
+    margin-top: 50px;
+    color: #641B98;
+    font-size: 24px;
+}
+
+.list__Info li{
+    display: inline;
+    border: 2px solid;
+    margin-right: 10px;
+}
+
+.list__Info p{
+    font-size: 10px;
+} */
+
+@media screen and (max-width: 500px) {
+    .home__Page {
+        display: none;
+    }
+
+    .people__ImageMob{
+        display: none;
+    }
+    
+    .people__Image{
+        display: none;
+    }
+
+    .home__Page {
+
+        display: none;
+    
+    }
+    
+    .breakout__Logo {
+        display: none;
+
+    }
+    
+    .whatsapp__Button {
+    
+        display: none;
+
+    }
+    
+    .whatsapp__Button:hover {
+        display: none;
+
+    }
+    
+    .whatsappButton__Text{
+        display: none;
+
+    }
+    
+    
+    .homePage__Text{
+        display: none;
+
+    }
+    
+    .bold__Text{
+        display: none;
+
+    }
+    
+    .first__Line{
+        display: none;
+
+    }
+    
+    .second__Line{
+        display: none;
+
+    }
+    
+    .paragraph__Text{
+        display: none;
+
+    }
+    
+    .joinNow__Button {
+        display: none;
+
+    }
+    
+    .joinNow__Button:hover {
+        display: none;
+
+    }
+    
+    .JoinButton__Text{
+        display: none;
+
+    }
+    
+    .last__Line p {
+        display: none;
+
+    }
+    
+    .people__Image{
+        display: none;
+
+    }
+    
+    .people__ImageMob{
+        display: none;
+    }
+    
+    .info__Box{
+        display: none;
+
+    }
+    
+    .virtual__Campus, .practical__Learning, .for__Traders{
+        display: none;
+
+    } 
+    
+    .vc__img, .pl__img, .ft__img{
+        display: none;
+
+    }
+    
+    .vc__heading, .pl__heading, .ft__heading{
+        display: none;
+
+    }
+    
+    .vc__text, .pl__text, .ft__text{
+        display: none;
+
+    }
+}

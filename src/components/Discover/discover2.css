@@ -1,0 +1,168 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold;
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.discover__bg{
+    /* border: 2px solid green; */
+    margin-top: 10%;
+    font-size: 62.5%;
+    /* padding-top: 80%; */
+    background: linear-gradient(-5deg, #FFFFFF 2%, #d0eff9 65%, #ffffff 10%);
+    /* background-position: top; */
+}
+
+.discover__Container{
+    /* border: 2px solid red;    */
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20%;
+}
+
+.discover__BoldText{
+    /* border: 2px solid blue; */
+    width: 35%;
+    font-family: gilroy-extrabold;
+    font-size: 5em;
+    line-height: 120%;
+    letter-spacing: -1px;
+    padding-top: 10%;
+}
+
+.discover__BoldText span{
+    color: #637BFF;
+}
+
+.programs__Container{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}
+
+.stockMarket__Basics{
+    /* border: 2px solid purple; */
+    width: 50%;
+    background: #FFFFFF;
+    border: 1px solid #E4E5EB;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    padding: 2%;
+    margin: 5%;
+    position: relative;
+    }   
+
+.bold__Heading{
+    color: #8149A8;
+    font-family: gilroy-extrabold;
+    font-size: 3em;
+}
+
+.bold__Price{
+    font-family: gilroy-bold;
+    font-size: 1.6em;
+}
+
+.medium__List{
+    list-style: none;
+    font-family: gilroy-medium;
+    font-size: 2em;
+    color: #767676;
+    line-height: 200%;
+    letter-spacing: -0.5px;
+}
+
+.option__Selling{
+    /* border: 2px solid fuchsia; */
+    width: 50%;
+    padding: 2%;
+    margin: 5%;
+    background: #FFFFFF;
+    border: 1px solid #E4E5EB;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.claimOff__Container{
+    background-image: url(../images/claimOffer_bg.png);
+    background-size: cover;
+    height: auto;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    font-size: 2em;
+
+    /* border: 2px solid black; */
+}
+
+.claimOff__Text{
+    font-family: gilroy-medium;
+    padding: 5%;
+}
+
+.claimOff__TextBold{
+    font-family: gilroy-bold;
+}
+
+.checkEligibility__Link{
+    color: #637BFF;
+    font-family: gilroy-medium;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    margin: 5%;
+
+}
+
+.bookMySeatSMB__Button, .bookMySeatOS__Button{
+    background: #14CC60;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+    font-family: gilroy-bold;
+    color: white;
+    margin: 5%;
+}
+
+.bookMySeatSMB__Button:hover, .bookMySeatOS__Button:hover{
+    background: #109547;
+}
+
+.bookMySeatSMB__Button{
+    position: relative;
+    height: 10%;
+    width: 90%;
+    min-height: 50px;
+}
+
+.bookMySeatOS__Button{
+    position: absolute;
+    height: 10%;
+    width: 80%;
+    min-height: 50px;
+    bottom: 3%;
+}
+
+.discover__BoldTextMob{display: none;}

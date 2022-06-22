@@ -1,0 +1,94 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold; 
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.steps__Container{
+    /* border: 2px solid red; */
+    font-size: 62.5%;
+    margin-bottom: 15%;
+}
+
+.steps__ContainerMob{display: none;}
+
+.steps__Heading{
+    text-align: center;
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 5em;
+    line-height: 120%;
+}
+
+.steps__Heading span{
+    color: #637BFF;
+}
+
+.steps__Box{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px  solid green; */
+}
+
+.step{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px  solid purple; */
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.step__Text{
+    /* border: 2px  solid yellow; */
+    width: 20%;
+    margin-right: 10%;
+}
+
+.step__Image{
+    /* border: 2px  solid yellow; */
+    width: 20%;
+    margin-right: 10%;
+}
+
+.step__Number{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.6em;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #8149A8;
+}
+
+.step__Heading{
+    font-size: 3em;
+    font-family: 'Gilroy-Medium';
+    line-height: 120%;
+    letter-spacing: -0.5px;
+}
+
+.step__HeadingBold{
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 1em;
+    line-height: 120%;
+    color: #637BFF;
+    letter-spacing: -0.5px;
+}
+
+.step__P{
+    color: #767676;
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6em;
+    line-height: 150%;
+}

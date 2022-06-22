@@ -1,0 +1,206 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+  }
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+    font-family: gilroy-light;
+    src: url(Gilroy-Light.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold;
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home__PageContainer{
+    /* border: 2px solid red; */
+    font-size: 62.5%;
+    height: auto;
+}
+
+.home__Page__bg {
+    border: 2px solid transparent;
+    padding-bottom: 10%;
+    background: url(../images/svg/hero_img_web.svg) no-repeat right bottom, linear-gradient(151.68deg, #E3F7FF -2.69%, #DAE3FD 98.31%) no-repeat;
+    background-size: 50%, cover;
+}
+
+.breakout__Logo{
+    width: 15%;
+}
+
+.logos__Top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.whatsapp__Button{
+    width: 15%;
+    height: 45px;
+    background-color: #14CC60;
+    border: none;
+    border-radius: 16px;    
+    color: white;
+    
+}
+
+.whatsapp__Button:hover {
+    background-color: #129a4a;
+}
+
+.whatsappButton__Text{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.2em;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+}
+
+.homePage__Text{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 5%;
+    width: 20%;
+}
+
+.first__Line{
+    color: #779FBD;
+    font-family: 'Gilroy-Bold';
+    font-size: 1.6em;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.first__LineMob{display: none;}
+
+.bold__Text{
+
+    font-family: 'Gilroy-ExtraBold';
+    font-size: 5em;
+    line-height: 120%;
+    letter-spacing: -1px;
+    margin-top: 5%;
+
+}
+
+.second__Line{
+    color: #637BFF;
+}
+
+.paragraph__Text{
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6em;
+    line-height: 130%;
+    color: #484848;
+}
+
+.joinNow__Button{
+    width: 50%;
+    height: 45px;
+    background-color: #14CC60;
+    border: none;
+    border-radius: 16px;    
+    color: white;
+    margin-top: 10%;
+}
+
+.joinButton__Text{
+    font-family: 'Gilroy-Bold';
+    font-size: 1em;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+}
+
+.joinNow__Button:hover {
+    background-color: #129a4a;
+}
+
+.last__LineHome{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.6em;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: #767676;
+    margin-top: 10%;
+}
+
+.info__Container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info__Box{
+    /* border: 2px solid blue; */
+    width: 80%;
+    background: linear-gradient(144.46deg, #E0FFED 1.35%, #E0F9FF 115.13%);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.04);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -7%;
+}
+
+.virtual__Campus, .practical__Learning, .for__Traders{
+    width: 33%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* border: 2px solid yellow; */
+}
+
+.info__Box img{
+    float: left;
+}
+
+.for__Traders{
+    margin-right: 5%;
+}
+
+.home__heading{
+    font-family: 'Gilroy-Bold';
+    font-size: 2.4em;
+    line-height: 120%;
+    color: #641B98;
+    letter-spacing: -0.5px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.home__text{
+    font-family: 'Gilroy-Medium';
+    font-size: 1.6em;
+    line-height: 130%;
+    color: #484848;
+    width:75%;
+    float: right;
+}
+
+.home__headingMob{display: none;}
+
+.home__textMob{display: none;}
+
+.paragraph__TextMob{display: none;}
+
+.enrollNow__Button{display: none;}
+
+.whatsapp__ButtonMob{display: none;}
+
+.people__ImageMob{display: none;}

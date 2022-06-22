@@ -1,0 +1,164 @@
+@media screen and (max-width: 970px) {
+    
+    .home__PageContainer{
+        /* display: none; */
+        /* border: 2px solid red;   */
+        /* height: 1100px; */
+    }
+    
+    .home__Page__bg {
+        /* border: 2px solid yellow; */
+        height: 100%;
+        background:url(../images/mobile/hero_img_mob.svg) no-repeat bottom, linear-gradient(151.68deg, #E3F7FF -2.69%, #DAE3FD 98.31%) no-repeat;
+        background-size: 100%, cover;
+    }
+    
+    .breakout__Logo{
+        /* display: inline block; */
+        width: 30%;
+        margin-top: 5%;
+        /* margin-left: 1%; */
+    }
+    
+    .whatsapp__ButtonMob{
+        display: block;
+        margin-top: 5%;
+
+    }
+
+    .whatsapp__Button{display: none;}
+    
+    .homePage__Text{
+        /* border: 2px solid purple; */
+        margin-top: 15%;
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 110%;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    
+    .first__Line{display: none;}
+
+    .first__LineMob{
+        display: block;
+        /* border: 2px solid blue; */
+        width: 100%;
+        text-align: center;
+        font-family: 'Gilroy-Medium';
+        font-size: 1.6em;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #779FBD;
+    }
+    
+    .bold__Text{
+        /* border: 2px solid red; */
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .paragraph__Text{
+        display: none;
+    }
+    
+    .paragraph__TextMob{
+        display: block;
+        margin-top: 10%;
+        font-family: 'Gilroy-Medium';
+        font-size: 1.4em;
+        line-height: 150%;
+        /* margin-left: 20%; */
+        align-self: center;
+        text-align: center;
+        width: 60%;
+    }
+
+    .joinNow__Button{
+        display: none;
+
+    }
+
+    .enrollNow__Button{
+        display: block;
+        align-self: center;
+        width: 50%;
+        margin-top: 10%;
+        height: 50px;
+        background-color: #14CC60;
+        border: 1px solid rgba(18, 18, 18, 0.1);
+        border-radius: 16px;    
+        color: white;
+    }
+    
+    .enrollButton__Text{
+        font-size: 1.8em;
+        font-family: gilroy-bold;
+    }
+    
+    .last__LineHome{
+        display: block;
+        align-self: center;
+        color: #AAACB8;
+    }
+
+    .info__Container{
+        /* border: 2px solid magenta; */
+        margin-top: -31%;
+    }
+    
+    .info__Box{
+        display: flex;
+        flex-direction: column;   
+        width: 90%;
+    }
+    
+    .virtual__Campus, .practical__Learning, .for__Traders{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid rgb(0, 0, 0, 0.1);
+        width: 80%;
+        padding-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .virtual__Campus{
+        margin-top: 15%;
+    }
+    
+    .for__Traders{
+        border: none;
+        padding-bottom: 10%;
+    }
+
+    .info__Box img{
+        width: 15%;
+    }
+
+    .home__heading{display: none;}
+
+    .home__headingMob{
+        display: block;
+        color: #3849A6;
+        font-family: 'Gilroy-Bold';
+        font-size: 2em;
+        line-height: 130%;
+        letter-spacing: -0.5px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+
+    .home__text{display: none;}
+
+    .home__textMob{
+        display: block;
+        font-family: 'Gilroy-Medium';
+        font-size: 1.2em;
+        line-height: 130%;
+    }
+}

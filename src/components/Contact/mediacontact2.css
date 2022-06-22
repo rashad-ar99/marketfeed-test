@@ -1,0 +1,58 @@
+@media screen and (max-width: 970px) {
+    
+    .contact__Text{
+        /* text-align: center;  */
+    }
+
+    .contact__Container{
+        background: url(../images/mobile/contact_bg_mob.svg) no-repeat left bottom, url(../images/customer_service_img.png) no-repeat center bottom;
+        background-size: 100%, 93%;
+        background-color: #f6f8ff;
+        /* border: 2px solid red; */
+        /* background-size: cover; */
+        height: auto;
+        padding-bottom: 10%;
+        
+    }
+    
+    .contact__TextBold{
+        /* border: 2px solid red; */
+        font-size: 0.8em;
+        margin-left: 20%;
+    }
+
+    .contact__Method{
+        color: #8149A8;
+        /* border: 2px solid purple; */
+        font-size: 0.35em;
+        padding-left: 0;
+        width: 80%;
+        text-align: center;
+        /* margin-top: 5%; */
+    }
+
+    .contact__Box{
+        display: flex;
+        /* border: 2px solid green; */
+        flex-direction: column;
+        background-color: white;
+        /* margin-top: 5%; */
+        /* padding-left: 0; */
+        border-radius: 40px;
+        width: 90%;
+        align-items: center;
+        margin-bottom: 100%;    
+    }
+
+    .first{
+        border-right: none;
+        padding-bottom: 10%;
+        margin-bottom: 5%;
+        /* margin-left: 0; */
+        border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    }
+
+    .second{
+        margin-top: 0;
+    }
+}

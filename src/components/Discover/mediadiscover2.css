@@ -1,0 +1,58 @@
+@media screen and (max-width: 970px) {
+    
+    .discover__BoldText{display: none;}
+
+    .option__Selling{display: none;}
+
+    .discover__bg{
+        /* border: 2px solid green; */
+        margin-top: 20%;
+        font-size: 62.5%;
+        /* padding-top: 80%; */
+        background: linear-gradient(-5deg, #FFFFFF 2%, #d0eff9 50%, #ffffff 10%);
+        /* background-position: top; */
+    }
+
+    .discover__Container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50%;
+        width: 100%;
+        /* height: 1000px; */
+
+    }
+
+    .discover__BoldTextMob{
+        display: block;
+        /* border: 2px solid green; */
+        width: 100%;
+        background-position: bottom 35%;
+        /* margin-top: -100%; */
+        position: relative;
+        font-family: gilroy-extrabold;
+        font-size: 3.2em;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #637BFF;
+    }
+
+    .discover__BoldTextMob span{
+        color: black;
+    }
+
+    .programs__Container{
+        /* border: 2px solid red; */
+        width: 100%;
+        text-align: center;
+    }
+
+    .claimOff__Container{
+        text-align: left;
+        margin: 10%;
+    }
+
+    .stockMarket__Basics{
+        width: 100%;
+    }
+}

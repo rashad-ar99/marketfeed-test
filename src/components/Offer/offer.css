@@ -1,0 +1,108 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold; 
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.offer__Section{
+    /* border: 2px solid black;     */
+    margin-left: 14%;
+    margin-top: 15%;
+    width: 1140px;
+    
+    
+}
+
+.offer__SectionInternal{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 40px;
+    height: 468px;
+    background-image: url(../images/offers_bg_gradient.png);
+    z-index: -1;
+    /* background: linear-gradient(151.68deg, #FFEAAA -2.69%, #A6FFE5 98.31%);      */
+}
+
+.offer__SectionInternalBG{
+    position: relative;
+    /* background-image: url(../images/offers_bg.png); */
+    background: linear-gradient(121.71deg, #F8FFDB -3.31%, #FFFFF3 92.08%);
+    margin-right: 50px;
+    z-index: 1;
+    border-radius: 40px;
+}
+
+.offer__SectionInternal img{
+    /* position: relative; */
+    margin-right: -50px;
+    margin-bottom: 41px;
+    width: 40%;
+    /* float: right; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.offer_Heading{
+    margin-top: 4%;
+    /* border: 2px solid blue; */
+    margin-left: 5%;
+    color: #C3B85D;
+    font-family: gilroy-bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    }
+
+.offer_Bold{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-family: gilroy-extrabold;
+    background: linear-gradient(112.22deg, #BC00CC 18.15%, #E4006E 74.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.offer__SectionInternal p{
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-family: gilroy-medium;
+    width: 600px;
+    font-size: 20px;
+}
+
+.offer__SectionInternal button{
+    width: 190px;
+    height: 54px;
+    margin-left: 50px;
+
+    font-size: 18px;
+    font-family: gilroy-bold;
+    color: white;
+
+    background: linear-gradient(137.56deg, #6A79DF 0.23%, #886ADF 110.36%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.09);
+    border-radius: 16px;
+}
+
+.offer__SectionInternal button:hover{
+    background: linear-gradient(137.56deg, #475295 0.23%, #886ADF 110.36%);
+}

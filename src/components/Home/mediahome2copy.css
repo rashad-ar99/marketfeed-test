@@ -1,0 +1,199 @@
+@media screen and (max-width: 970px) {
+
+    .home__PageContainer{
+        /* border: 2px solid red; */
+        max-width: 100%;
+        /* width: 100vw; */
+        height: 180vh;
+        padding-bottom: 1vh;
+    }
+
+    .home__Page__bg {
+        /* border: 2px solid; */
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        width: 100vw;
+        height: 100.7vh;
+    
+    }
+
+    .people__Image{display: none;}
+
+    .people__ImageMob{
+        /* border: 2px solid green; */
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: 75vh;
+        bottom: 0;
+    }
+
+    .breakout__Logo{
+        /* border: 2px solid green; */
+        margin-top: 2.37vh;
+        margin-left: 5.13vw;
+    }
+
+    .whatsapp__Button{display: none;}
+
+    .whatsapp__ButtonMob{
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 6.2vw;
+        top: 2.843vh;
+        box-sizing: border-box;
+        display: block;
+
+    }
+
+    .whatsapp__ButtonMob img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .whatsappButton__Text{display: none;}
+    
+    .homePage__Text{
+
+        text-align:center;
+        /* border: 2px solid blue;   */
+        width: 70vw;
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    
+    .bold__Text{
+        display:inline-block;
+        /* border: 2px solid red; */
+        box-sizing: border-box;
+        width: 76.92vw;
+        margin-left: auto;
+    }
+    
+    .first__Line{display: none;}
+    
+    .first__LineMob {
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        /* border: 2px solid red; */
+        font-family: gilroy-light;
+        top: 0;
+        /* left: 23.08vw; */
+        color: #779FBD;
+        width: 200px;
+        height: 15px;
+        font-size: 18px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        left: 8%;
+    }
+    
+
+    
+    .paragraph__Text{display: none;}
+    
+    .paragraph__TextMob{
+        display:inline-block;
+        margin-left: auto;
+        padding-left: 5vh;
+    }
+
+    .joinNow__Button {display: none;}
+    
+    .enrollNow__Button{
+        display: inline-block;
+        position: relative;
+        min-width: 160px;
+        min-height: 54px;
+        width: 11.11vw;
+        height: 5.243vh; 
+        background-color: #14CC60;
+        border: none;
+        border: 1px solid rgba(18, 18, 18, 0.1);
+        border-radius: 16px;    
+        color: white;
+        top: 24px;
+        left: 4vw;
+    }
+    
+    .enrollButton__Text{
+        font-size: 18px;
+        font-family: gilroy-bold;
+    }
+
+    .homePage__Text p{
+        /* z-index: 2; */
+        /* border: 2px solid red; */
+        position: absolute;
+        font-family: gilroy-bold;
+        color: #767676;
+        /* color: black; */
+        top: 20vh;
+        left: 7vw;
+    }
+    
+    .people__Image{display: none;}
+
+    .info__Box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }   
+
+    .info__Container{
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 112vh;
+        min-height: 68vh;
+    }
+    
+    .virtual__Campus, .practical__Learning, .for__Traders{
+        /* border: 2px solid red; */
+        position: relative;
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    .virtual__Campus, .practical__Learning{
+        border-bottom: 2px solid rgb(0, 0, 0,0.1);
+    }
+
+    .vc__heading, .pl__heading, .ft__heading{display: none;}
+
+    .vc__headingMob, .pl__headingMob, .ft__headingMob{
+        display: block;
+        width: 175px;
+        /* float: right; */
+        /* border: 2px solid green; */
+        /* float: right; */
+        color: #3849A6;
+        font-family: gilroy-bold;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: -0.5px;
+        margin-top: 16px;
+        
+    }
+
+    .vc__text, .pl__text, .ft__text{display: none;}
+
+    .vc__textMob, .pl__textMob, .ft__textMob{
+        display: block;
+        font-size: 12px;
+        font-family: gilroy-medium;
+        line-height: 16px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+
+    .vc__img, .pl__img, .ft__img{
+        width: 36px;
+        height: 36px;
+    }
+}

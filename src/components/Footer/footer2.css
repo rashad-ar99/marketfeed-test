@@ -1,0 +1,123 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(Gilroy-Bold.woff);
+}
+
+@font-face {
+    font-family: gilroy-light;
+    src: url(Gilroy-Light.woff);
+}
+
+@font-face {
+    font-family: gilroy-semibold;
+    src: url(Gilroy-Semibold.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(Gilroy-Medium.woff);
+  }
+
+@font-face {
+   font-family: gilroy-heavy;
+   src: url(Gilroy-Heavy.woff);
+}
+
+@font-face {
+    font-family: gilroy-extrabold;
+    src: url(Gilroy-ExtraBold.woff);
+}
+
+.footer__Container{
+    /* border: 2px solid Blue; */
+    background-color: #1A1D24;
+    padding: 10%;
+    padding-bottom: 5%;
+    height: auto;
+    font-size: 62.5%;
+}
+
+.logo__FooterMob{display: none;}
+
+.footer__Box{
+    /* border: 2px solid Blue; */
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+
+.address{
+    font-family: gilroy-light;
+    margin-top: 10%;
+    font-size: 1.6em;
+    line-height: 125%;
+    /* letter-spacing: -0.5px; */
+
+}
+
+.logos {
+    /* color: green; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.logos a:visited{
+    color: inherit;
+}
+
+.youtube, .insta, .twitter, .fb{
+    border: 4px solid #383b42;
+    background-color: #383b42;
+    border-radius: 50%;
+    padding: 0.5%;
+    margin-right: 20px;
+}
+
+.heading{
+    font-family: gilroy-semibold;
+    font-size: 2em;
+    line-height: 130%;
+    letter-spacing: -0.5px;
+    opacity: 0.6;
+    margin-bottom: 20%;
+}
+
+.two_inrow{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    font-family: gilroy-light;
+    font-size: 1.6em;
+    line-height: 150%;
+    letter-spacing: -0.5px;
+}
+
+.item a{
+    text-decoration: none;    
+}
+
+.item a:visited{
+    color: inherit;
+}
+
+.last__Line{
+    display: flex;
+    color: white;
+    font-family: gilroy-light;
+    font-size: 1.8em;
+    justify-content: center;
+    line-height: 144%;
+    letter-spacing: -0.5px;
+}
